@@ -1,6 +1,6 @@
 # CIFAR-10 Image Classification using DNN, CNN, and CNN with Data Augmentation
 
-##📌 Project Overview
+# 📌 Project Overview
 
 This project focuses on image classification using the CIFAR-10 dataset and compares the performance of:
 
@@ -10,7 +10,7 @@ CNN with Image Augmentation
 
 The goal of this project is to understand how CNNs outperform traditional DNNs in computer vision tasks by preserving spatial features from images.
 
-📂 Dataset Information
+# 📂 Dataset Information
 The CIFAR-10 dataset contains:
 
 60,000 color images
@@ -24,7 +24,7 @@ Airplane, Car, Bird, Cat, Deer, Dog, Frog, Horse, Ship, Truck
 Dataset Source:
  : https://www.cs.toronto.edu/~kriz/cifar.html
 
-🧠 Technologies Used
+# 🧠 Technologies Used
 
 Python
 
@@ -39,7 +39,7 @@ Seaborn
 Scikit-learn
 
 
-🔥 Project Workflow
+# 🔥 Project Workflow
 1️⃣ Data Preprocessing
 
 Loaded CIFAR-10 dataset
@@ -119,13 +119,14 @@ Test Accuracy: ~80.6%
 Image augmentation improved model robustness and generalization by exposing the model to transformed image variations. Although a slight decrease in accuracy was observed, the model became less dependent on fixed image orientations.
 
 
-📈 Model Comparison
+# 📈 Model Comparison
+
 ModelTest Accuracy
 DNN~43%
 CNN~83%
 CNN + Augmentation~80.6%
 
-🧠 Key Learnings
+# 🧠 Key Learnings
 
 CNNs are highly effective for image-related tasks.
 
@@ -138,7 +139,7 @@ Data augmentation improves generalization and robustness.
 Confusion matrices help analyze class-wise prediction errors.
 
 
-📊 Visualization & Evaluation
+# 📊 Visualization & Evaluation
 
 The project also includes:
 
@@ -151,7 +152,7 @@ Confusion Matrix Analysis
 Class-wise Error Analysis
 
 
-🚀 Future Improvements
+# 🚀 Future Improvements
 
 Transfer Learning using pre-trained models
 
@@ -164,11 +165,11 @@ Advanced augmentation techniques
 Model deployment using Flask or Streamlit
 
 
-💬 Conclusion
+# 💬 Conclusion
 
 This project demonstrates the practical difference between DNNs and CNNs for image classification tasks. Through experimentation and comparison, it highlights why CNNs are the preferred choice for computer vision applications and how augmentation techniques help improve model generalization.
 
-👩‍💻 Author
+# 👩‍💻 Author
 
 Prakriti Anand
 Machine Learning | AI/ML | Deep Learning Enthusiast
