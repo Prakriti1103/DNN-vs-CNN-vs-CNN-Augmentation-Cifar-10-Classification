@@ -1,4 +1,5 @@
 CIFAR-10 Image Classification using DNN, CNN, and CNN with Data Augmentation
+
 📌 Project Overview
 
 This project focuses on image classification using the CIFAR-10 dataset and compares the performance of:
@@ -11,8 +12,6 @@ The goal of this project is to understand how CNNs outperform traditional DNNs i
 
 📂 Dataset Information
 The CIFAR-10 dataset contains:
-
-
 60,000 color images
 
 
