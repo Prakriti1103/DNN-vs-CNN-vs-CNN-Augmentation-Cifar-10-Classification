@@ -51,6 +51,7 @@ Applied one-hot encoding to labels
 Split dataset into training and validation sets
 
 
+
 2️⃣ Deep Neural Network (DNN)
 
 Implemented a fully connected neural network using:
@@ -71,6 +72,7 @@ Test Accuracy: ~43%
 ❌ Observation
 
 The DNN model struggled because flattening the image removed important spatial relationships between pixels.
+
 
 
 3️⃣ Convolutional Neural Network (CNN)
@@ -95,6 +97,7 @@ Test Accuracy: ~83%
 ✅ Observation
 
 CNN significantly outperformed DNN because convolutional layers preserved spatial information and learned important image features such as edges, textures, and shapes.
+
 
 
 4️⃣ CNN with Image Augmentation
@@ -122,8 +125,11 @@ Image augmentation improved model robustness and generalization by exposing the 
 # 📈 Model Comparison
 
 ModelTest Accuracy
+
 DNN~43%
+
 CNN~83%
+
 CNN + Augmentation~80.6%
 
 # 🧠 Key Learnings
